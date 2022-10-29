@@ -1,6 +1,6 @@
 import React from "react";
-import zuri from "./images/zuri-img.png";
-import i4g from "./images/i4g.png";
+import zuri from "../assets/images/zuri-img.svg";
+import i4g from "../assets/images/i4g.png";
 
 export default function Footer() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import github from "./images/github.png";
-import slack from "./images/slack.png";
+import github from "../assets/images/github.svg";
+import slack from "../assets/images/slack.svg";
 
 export default function Socials() {
     return (
