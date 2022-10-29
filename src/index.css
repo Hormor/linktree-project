@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 24px 112px;
+}
+
+.main {
+    padding: 0 32px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding-top: 55px;
+        padding-bottom: 45px;
+    }
+
+    .content {
+        padding: 0px;
+    }
+
+
+    .main {
+        padding: 0 16px;
+    }
+
+    #profile_img {
+        width: 88px;
+        height: 88px;
+    }
+
+    #twitter {
+        font-size: 18px;
+    }
+
+    #twitter-link,
+    #btn_zuri,
+    #books,
+    #book_python,
+    #pitch,
+    #book_design {
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    #footer {
+        padding: 0px;
+    }
+
+    #main-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start ;
+    }
+
+        #zuri {
+            width: 140px;
+            height: 24px;
+            margin-top: 16px;
+        }
+    
+        #main-footer p {
+            font-size: 14px;
+            margin-top: 16px;
+        }
+    
+        #i4g {
+            width: 99px;
+            height: 24px;
+            margin-top: 16px;
+        }
+}
