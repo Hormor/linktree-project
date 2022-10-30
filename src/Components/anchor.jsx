@@ -3,10 +3,10 @@ import React from "react"
 export default function Anchor() {
   return (
     <div id="anchor">
-      <a href="https://twitter.com/OmoladeHassan1" id="twitter-link">
+      <a href="https://twitter.com/OmoladeHassan1" id="twitter__link">
         Twitter Link
       </a>
-      <a href="https://training.zuri.team/" id="btn_zuri">
+      <a href="https://training.zuri.team/" id="btn__zuri">
         Zuri Team
       </a>
       <a
@@ -18,7 +18,7 @@ export default function Anchor() {
       </a>
       <a
         href="https://books.zuri.team/python-for-beginners?ref_id=<Hormor>"
-        id="book_python"
+        id="book__python"
         title="New to python? This book addresses every problem you can encounter as a new developer"
       >
         Python Books
@@ -32,7 +32,7 @@ export default function Anchor() {
       </a>
       <a
         href="https://books.zuri.team/design-rules "
-        id="book_design"
+        id="book__design"
         title="These books summarizes the best practices to indulge in while designing"
       >
         Design Books
