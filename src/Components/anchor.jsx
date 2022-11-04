@@ -37,6 +37,13 @@ export default function Anchor() {
       >
         Design Books
       </a>
+      <a
+        href="/contact"
+        id="contact"
+        title="You can reach out to us here"
+      >
+        Contact Me
+      </a>
     </div>
   );
 }
