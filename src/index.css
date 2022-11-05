@@ -8,26 +8,116 @@
 
 body {
     height: 100vh;
-    background-color: #FFFFFF;
-    text-align: center;
+    background-color: #ffffff;
     font-family: 'Inter', sans-serif;
 }
 
-.container {
-    width: 1440px;
+.main {
+    max-width: 1216px;
     margin: 0 auto;
 }
 
 .content {
-    padding: 24px 112px;
+    padding: 64px 0;
+    text-align: center;
 }
 
-.main {
+.container {
     padding: 0 32px;
 }
 
+.contact_main {
+    padding: 64px 80px;
+}
+
+.contact_container {
+    padding: 92px 248px;
+}
+
+.contact_container h3 {
+    font-size: 36px;
+    color: #101828;
+    width: 448px;
+}
+
+.contact_container p {
+    margin: 20px 0 48px 0;
+    font-size: 20px;
+    color: #475467;
+}
+
+.form-container {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 15px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field label {
+    color: #344054;
+    font-size: 14px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.form-field input {
+    color: #667085;
+    font-size: 16px;
+    padding: 10px 14px;
+    height: 44px;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.form-field textarea {
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+}
+
+.colspan {
+    grid-column: span 2;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.checkbox label {
+    margin-left: 12px;
+    color: #475467;
+    font-size: 16px;
+}
+
+.checkbox input {
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+    width: 20px;
+    height: 22px;
+}
+
+#btn__submit {
+    margin-top: 32px;
+    height: 48px;
+    width: 100%;
+    color: #ffffff;
+    background: #1570EF;
+    border: 1px solid #1570EF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
 @media screen and (max-width: 600px) {
-    .container {
+    .main {
         width: 100%;
         padding-top: 25px;
         padding-bottom: 45px;
@@ -37,8 +127,31 @@ body {
         padding: 0px;
     }
 
-
-    .main {
+    .container {
         padding: 0 16px;
+    }
+
+    .contact_main {
+        padding: 0;
+    }
+
+    .contact_container {
+        padding: 64px 16px;
+    }
+
+    .contact_container h3 {
+        width: auto;
+    }
+
+    .contact_container p {
+        font-size: 18px;
+    }
+
+    .form-container {
+        grid-template-columns: 1fr;
+    }
+
+    .colspan {
+        grid-column: span 1;
     }
 }
