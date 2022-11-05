@@ -1,25 +1,19 @@
-import React from 'react'
-import Header from './Components/header'
-import Anchor from './Components/anchor'
-import Socials from "./Components/social-section";
-import Footer from "./Components/footer";
-import './App.css'
+import React from "react";
+import Header from "./components/header";
+import Anchor from "./components/anchor";
+import Socials from "./components/social-section";
+import "./App.css";
 
 function App() {
-
   return (
-    <div className="container">
       <div className="content">
-        <div className="main">
+        <div className="container">
           <Header />
           <Anchor />
         </div>
         <Socials />
       </div>
-      <Footer />
-    </div>
   );
-    
 }
 
-export default App
+export default App;
